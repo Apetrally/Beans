@@ -1,0 +1,8 @@
+int weight;
+int weight_in_grams;
+int bean = 3;
+int weight_in_beans;
+weight = input ("Enter your weight");
+weight_in_grams = weight * 425;
+weight_in_beans = weight_in_grams/bean;
+Output ("You weigh" + weight_in_beans);
